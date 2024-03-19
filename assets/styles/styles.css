@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Shippori Antique B1", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+}
+a{
+    text-decoration: none;
+}
+nav.navbar ul{
+    float: right;
+    margin-top: 30px;
+}
+nav.navbar ul li{
+    display: inline;
+    padding-right: 30px;
+}
+nav.navbar ul li a{
+    color: black;
+}
+div.container{
+    padding: 30px;
+}
+span.title, span.project-title, span.projects-title{
+    font-weight: bold;
+}
+section, footer{
+    margin-top: 50px;
+}
+section.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section.hero span.identity, span.role{
+    font-size: 40px;
+    font-weight: bold;
+}
+section.hero div.intro{
+    max-width: 500px;
+}
+section.hero img{
+    max-width: 25%;
+    border-radius: 50%;
+}
+section.skills, section.projects{
+    text-align: center;
+}
+div.skills span{
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+div.soft-skills{
+    margin-top: 30px;
+}
+div.projects-list, div.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+div.project{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+a.project-link, a.resume-link{
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+a.project-link{
+    background-color: rgb(95, 68, 245);
+    color: beige;
+}
+a.resume-link{
+    background-color: rgb(245, 68, 68);
+    color: beige;
+}
+footer{
+    text-align: center;
+}
+footer div.links
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50px);
+    gap: 0 20px;
+    justify-content: center;
+}
+footer div.links img{
+    width: 50px;
+}
+@media screen and (max-width: 800px){
+    section.hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px 0;
+    }
+}
