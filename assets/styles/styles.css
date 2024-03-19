@@ -13,6 +13,9 @@ nav.navbar ul{
     float: right;
     margin-top: 30px;
 }
+div.menu{
+    display: none;
+}
 nav.navbar ul li{
     display: inline;
     padding-right: 30px;
@@ -28,6 +31,12 @@ span.title, span.project-title, span.projects-title{
 }
 section, footer{
     margin-top: 50px;
+}
+div.menu div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 section.hero{
     display: flex;
@@ -108,5 +117,27 @@ footer div.links img{
         flex-direction: column-reverse;
         text-align: center;
         gap: 30px 0;
+    }
+    nav.navbar{
+        display: block;
+    }
+    nav.navbar ul{
+        background-color:rgb(95, 68, 245);
+        position: fixed;
+        margin-top: 0;
+        padding: 30px;
+        height: 100%;
+    }
+    nav.navbar ul li{
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    nav.navbar ul{
+        float: left;
+    }
+    div.menu{
+        float: right;
+        display: block;
     }
 }
