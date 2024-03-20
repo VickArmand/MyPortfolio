@@ -119,10 +119,10 @@ footer div.links img{
         gap: 30px 0;
     }
     nav.navbar{
-        display: block;
+        display: none;
     }
     nav.navbar ul{
-        background-color:rgb(95, 68, 245);
+        background-color:rgb(182, 180, 192);
         position: fixed;
         margin-top: 0;
         padding: 30px;
