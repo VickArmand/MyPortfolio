@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Maina's Portfolio Page</title>
+    <title>Victor's Portfolio Page</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,30 +18,42 @@
         </div>
         <nav class="navbar" id="nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container">
             <section class="hero">
-                <div class="intro">
-                    <span class="identity">Hello, I am Victor Maina</span>
-                    <br>
-                    <span class="role">A Software Engineer</span>
-                    <p class="description">With 5 years of Proficiency in back end development using C#, PHP, C, Python, Java and front end
-                        development using HTML, CSS, JavaScript.</p>
-                        <br>
-                    <a class="resume-link" href="https://drive.google.com/file/d/1JqtAQ41OlARqrIL_uvhJ1nbeRugsAQ74/view?usp=drive_link" target="_blank">DOWNLOAD RESUME</a>
+                <div class="container">
+                    <div class="intro">
+                        <span class="identity">Hello, I am Victor Maina,</span>
+                        <p class="description">A Full Stack Software Engineer with a focus on creating exceptional digital experiences that are functional, fast, accessible, visually appealing, and responsive.</p>
+                        <span>Available for entry level jobs, freelance jobs and internships</span>
+                        <a class="resume-link" href="https://drive.google.com/file/d/1JqtAQ41OlARqrIL_uvhJ1nbeRugsAQ74/view?usp=drive_link" target="_blank">DOWNLOAD RESUME</a>
+                    </div>
+                    <img class="my-image" src="assets/images/Veclipse.jpg" alt="">
                 </div>
-                <img class="my-image" src="assets/images/Veclipse.jpg" alt="">
             </section>
-            <section class="skills">
+            <section id="about-me">
+                <div class="container">
+                <div class="header">
+                    <span class="title">About me</span>
+                </div>
+                <p>I am a passionate and dedicated full stack software engineer with 5 years of experience in delivering high quality, scalable and robust software solutions. I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
+                I build cutting edge applications using technologies such as C#, PHP, C, Python, Java, HTML, CSS, JavaScript. <br>I began my journey as a web developer in 2018, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. In addition to this, I have a bachelor's degree in Computer Science acquired at Meru University of Science & Technology.
+                <br>My aim is to gain valuable experience in a professional setting and leveraging my skills and knowledge to contribute to team success and creating a positive and lasting impact within the company.</p>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="container">
                 <div class="hard-skills">
-                <span class="title">Hard Skills</span>
+                    <div class="header">
+                        <span class="title">Hard Skills</span>
+                    </div>
                 <div class="skills">
                    <span>Git</span>
                    <span>Github</span>
@@ -76,7 +88,9 @@
                 </div>
             </div>
                 <div class="soft-skills">
-                    <span class="title">Soft Skills</span>
+                    <div class="header">
+                        <span class="title">Soft Skills</span>
+                    </div>
                     <div class="skills">
                         <span>Collaboration & Teamwork</span>
                         <span>Problem Solving & Troubleshooting</span>
@@ -85,35 +99,107 @@
                         <span>Decision Making</span>
                     </div>
                 </div>
+                </div>
             </section>
-            <section class="projects">
-                <span class="projects-title">Recent Projects:</span>
+            <section id="work-experience">
+                <div class="container">
+                <div class="header">
+                    <span class="title">Work experience</span>
+                </div>
+                <div class="experience-list">
+                    <div class="experience">
+                        <div class="details">
+                            <span class="role-title">Frontend Web Developer</span>
+                            <br>
+                            <span class="employer">Value Chain Factory</span>
+                            <br>
+                            <span class="period">May 2022 - Jul 2022</span>
+                        </div>
+                        <div class="role-description">
+                            <ul>
+                                <li>Created responsive web interfaces from Figma Mockups.</li>
+                                <li>Performed cross platform and cross device testing to ensure consistent user experience.</li>
+                                <li>Used version control systems to track changes and collaborate with other team members.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="details">
+                            <span class="role-title">Computer Technical Specialist</span>
+                            <br>
+                            <span class="employer">Ikumbi Tea Factory Limited</span>
+                            <br>
+                            <span class="period">Nov 2021 - Mar 2022</span>
+                        </div>
+                        
+                        <div class="role-description">
+                            <ul>
+                                <li>Provided preventive maintenance of company devices.</li>
+                                <li>Installed and conﬁgured hardware , software and network
+                                connections in the company</li>
+                                <li>Troubleshooted and solved hardware, software and
+                                network issues</li>
+                                <li>Oﬀered technical support to end users and the staﬀ.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="container">
+                <div class="header">
+                    <span class="title">Recent Projects:</span>
+                </div>
                 <div class="projects-list">
                     <div class="project">
                         <img src="assets/images/image 2.png" alt="" srcset="">
-                        <span class="project-title">RENTAL HOUSE MANAGEMENT SYSTEM</span>
+                        <span class="project-title">RENTAL HOUSING MANAGEMENT SYSTEM</span>
                         <p class="project-description">This is a project aimed at helping individual rental house owners (landlords) execute tasks such as managing tenants, rooms, caretakers and monitoring tenant accounting information.</p>
-                        <span class="project-stack"><b>Tech Stack:</b> Java, XML, Google Firebase Firestore </span>
+                        <div class="skills">
+                            <span>Java</span>
+                            <span>XML</span>
+                            <span>Google Firebase Firestore</span>
+                        </div>
                         <a class="project-link" target="_blank" href="https://github.com/VickArmand/RentalHousingManagementSystem">View Code</a>
                     </div>
                     <div class="project">
                         <img src="assets/images/151-1518759_ambulance-doctor-doctor-clipart-black-and-white-png.png" alt="" srcset="">
                         <span class="project-title">EARLY DIABETES PREDICTION SYSTEM</span>
                         <p class="project-description">This is a project aimed at predicting the chances of a patient to suffer from diabetes based on health inputs such as Body Mass Index(BMI), Glucose concentration, Blood Pressure and Age</p>
-                        <p class="project-stack"><span class="title">Tech Stack:</span> HTML, Tailwind CSS, React JS, Flask, Tensorflow </p>
+                        <div class="skills">
+                            <span>HTML</span>
+                            <span>Tailwind CSS</span>
+                            <span>React JS</span>
+                            <span>Flask</span>
+                            <span>Tensorflow</span> 
+                        </div>
                         <a class="project-link" target="_blank" href="https://github.com/VickArmand/Early-Diabetes-Prediction-Project">View Code</a>
                     </div>
                 </div>
+                </div>
             </section>
-            <footer>
+            <section id="contact">
+                <div class="container">
+                <div class="header">
+                    <span class="title">Contact</span>
+                </div>
+                <span>Feel free to reach out via:</span>
+                <br>
+                <span>Contact: +254793835669</span>
+                <br>
+                <span>Email: victormaina1962@gmail.com</span>
+                <br>
+                <span>For more information check out the following links: </span>
                 <div class="links">
                     <a href="https://www.linkedin.com/in/victor-maina-3a894922a/" target="_blank" rel="noopener noreferrer"><img src="assets/images/linkedin.png" alt="" srcset=""></a>
                     <a href="https://github.com/VickArmand?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="assets/images/github.png" alt="" srcset=""></a>
-                    <a href="mailto:victormaina1962@gmail.com" target="_blank" rel="noopener noreferrer"><img src="assets/images/gmail.png" alt="" srcset=""></a>
                 </div>
-                <p>&copy; <span id="current-year"></span></p>
+                </div>
+            </section>
+            <footer>
+                <p>&copy; <span id="current-year"></span> | Designed and coded by Victor Maina</p>
             </footer>
-        </div>
     </main>
 </body>
 <script src="assets/scripts/script.js"></script>
