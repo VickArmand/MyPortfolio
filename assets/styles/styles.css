@@ -26,6 +26,7 @@ div.menu{
     right: 10px;
     display: none;
     float: right;
+    cursor: pointer;
 }
 nav.navbar ul li{
     display: inline;
