@@ -78,6 +78,9 @@ section.hero img{
 section#skills, section#projects, section#about-me{
     text-align: center;
 }
+section#projects div.projects-list, section#work-experience div.experience-list{
+    margin-top: 30px;
+}
 div.skills span, div.project-stack span{
     border: 1px solid rgb(100, 99, 99);
     border-radius: 10px;
@@ -85,11 +88,10 @@ div.skills span, div.project-stack span{
     color: rgb(248, 248, 248);
     background-color: rgb(94, 90, 90);
 }
-div.projects-list, div.skills{
+div.projects-list, div.skills, div.project-stack{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px 30px;
     flex-wrap: wrap;
 }
 div.projects-list, div.skills{
@@ -110,8 +112,8 @@ div.project{
     gap: 10px 0;
 }
 div.project img{
-    width: 200px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 a.project-link, a.resume-link{
     border: 1px solid rgb(100, 99, 99);
@@ -132,7 +134,6 @@ a.resume-link{
 }
 a.resume-link:hover{
     background-color: rgb(194, 34, 34);
-    background-color: rgb(194, 34, 34);
 }
 section#work-experience div.experience-list{
     display: grid;
@@ -150,8 +151,12 @@ section#work-experience div.experience{
 section#work-experience span.role-title{
     font-weight: bold;
 }
-section#contact{
-    text-align: center;
+section#contact div.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 0;
 }
 section#contact div.links
 {
